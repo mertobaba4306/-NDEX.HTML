@@ -903,7 +903,39 @@ transform:translateY(-15px);
 transform:translateY(0);
 
 }
+}.socialButtons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+    flex-wrap:wrap;
 }
+
+.instagramBtn,
+.googleBtn{
+    display:inline-block;
+    padding:12px 22px;
+    border-radius:12px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.instagramBtn{
+    background:#E1306C;
+}
+
+.googleBtn{
+    background:#ff9800;
+}
+
+.instagramBtn:hover,
+.googleBtn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 15px rgba(255,170,0,.4);
+}
+
 </style>
 
 </head>
@@ -999,13 +1031,13 @@ onclick="startSlot()">
 </button>
 <div class="socialButtons">
 
-    <a href="https://instagram.com/KULLANICI_ADIN"
+    <a href="https://instagram.com/burgertototr"
        target="_blank"
        class="instagramBtn">
         📷 Instagram
     </a>
 
-    <a href="GOOGLE_YORUM_LINKI"
+    <a href="https://www.google.com.tr/search?sa=X&sca_esv=96de9828adab30a7&sxsrf=APpeQntsZ8NSUa2gh9MzFuIIU-4FPq30ZA:1785959705083&q=BURGERTOTO+Yorumlar&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2Nja3MDIysTQ0tjAyMLG0MDWx2MDI-IpR2Ck0yN01KMQ_xF8hMr-oNDcnsWgRKzZRAMdG0ddGAAAA&rldimm=3378224913820498548&tbm=lcl&hl=tr-GR&ved=2ahUKEwiZwbeuooqWAxUWcPEDHX-KJTQQ9fQKegQINRAG&biw=1536&bih=730&dpr=1.25#lkt=LocalPoiReviews&lrd=0x14c949e16897cfe9:0x2ee1dda917a53a74,3,,,,"
        target="_blank"
        class="googleBtn">
         ⭐ Google Yorum Yap
