@@ -844,9 +844,17 @@ pointer-events:none;
 
 .loadingLogo{
 
-font-size:90px;
+display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
 
-animation:loadingBurger 1s infinite;
+.loadingLogo img{
+    width:140px;
+    height:auto;
+    filter:drop-shadow(0 0 20px rgba(255,170,0,.45));
+
 
 }
 
@@ -2005,7 +2013,7 @@ loading.innerHTML=`
 
 <div class="loadingLogo">
 
-🍔
+<img src="burger-toto-logo.jpg" alt="Burger Toto Logo">
 
 </div>
 
